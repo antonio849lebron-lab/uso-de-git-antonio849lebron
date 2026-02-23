@@ -1,0 +1,4 @@
+Lista de caracter¡sticas: 
+1. Sistema de usuarios 
+2. Dashboard principal 
+3. Reportes b sicos 
