@@ -5,9 +5,9 @@ Este es mi primer proyecto usando Git.
 ## Caracteristicas
 - Aprendiendo Git paso a paso
 
-- ## Ultima actualización
+- ## Ultima actualizaciÃ³n
 Editado desde GitHub web interface
 
 
-## Información del proyecto
-Versión combinada de ambas ramas
+## InformaciÃ³n del proyecto
+VersiÃ³n combinada de ambas ramas
