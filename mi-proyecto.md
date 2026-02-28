@@ -2,10 +2,10 @@
 
 Este es mi primer proyecto usando Git.
 
-## Características
+## Caracteristicas
 - Aprendiendo Git paso a paso
 
-- ## Última actualización
+- ## Ultima actualizaci�n
 Editado desde GitHub web interface
 
 
