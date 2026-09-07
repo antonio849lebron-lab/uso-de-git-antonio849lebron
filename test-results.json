@@ -1,6 +1,6 @@
 {
   "success": false,
-  "fecha_ejecucion": "2026-09-07T01:50:01.465Z",
+  "fecha_ejecucion": "2026-09-07T02:12:06.760Z",
   "ejercicios": [
     {
       "ejercicio": 1,
@@ -65,57 +65,62 @@
     {
       "ejercicio": 6,
       "nombre": "pull-clone",
-      "estado": "parcial",
-      "tests_totales": 6,
-      "tests_aprobados": 5,
-      "tests_fallidos": 1,
-      "puntos_posibles": 10,
-      "puntos_obtenidos": 8,
-      "porcentaje": 83,
-      "detalles": [
-        {
-          "nombre": "El archivo mi-proyecto.md debe contener la actualización desde GitHub",
-          "estado": "passed",
-          "duracion_ms": 2
-        },
-        {
-          "nombre": "El archivo sync-test.txt debe existir",
-          "estado": "passed",
-          "duracion_ms": 1
-        },
-        {
-          "nombre": "Debe tener al menos 6 commits",
-          "estado": "passed",
-          "duracion_ms": 7
-        },
-        {
-          "nombre": "El archivo sync-test.txt debe estar trackeado en Git",
-          "estado": "passed",
-          "duracion_ms": 7
-        },
-        {
-          "nombre": "Debe tener commits que indiquen sincronización",
-          "estado": "passed",
-          "duracion_ms": 12
-        },
-        {
-          "nombre": "El repositorio debe estar limpio (sin cambios pendientes)",
-          "estado": "failed",
-          "duracion_ms": 13
-        }
-      ]
-    },
-    {
-      "ejercicio": 7,
-      "nombre": "conflictos",
       "estado": "no-ejecutado",
       "tests_totales": 0,
       "tests_aprobados": 0,
       "tests_fallidos": 0,
-      "puntos_posibles": 15,
+      "puntos_posibles": 10,
       "puntos_obtenidos": 0,
       "porcentaje": 0,
       "detalles": []
+    },
+    {
+      "ejercicio": 7,
+      "nombre": "conflictos",
+      "estado": "parcial",
+      "tests_totales": 7,
+      "tests_aprobados": 6,
+      "tests_fallidos": 1,
+      "puntos_posibles": 15,
+      "puntos_obtenidos": 12,
+      "porcentaje": 85,
+      "detalles": [
+        {
+          "nombre": "El archivo mi-proyecto.md debe contener información del proyecto combinada",
+          "estado": "passed",
+          "duracion_ms": 3
+        },
+        {
+          "nombre": "No debe existir la rama feature/conflicto-simulado",
+          "estado": "passed",
+          "duracion_ms": 7
+        },
+        {
+          "nombre": "Debe estar en la rama main/master",
+          "estado": "passed",
+          "duracion_ms": 5
+        },
+        {
+          "nombre": "Debe tener evidencia de merge en el historial",
+          "estado": "passed",
+          "duracion_ms": 7
+        },
+        {
+          "nombre": "Debe tener commits relacionados con conflictos",
+          "estado": "passed",
+          "duracion_ms": 6
+        },
+        {
+          "nombre": "El repositorio debe estar limpio",
+          "estado": "failed",
+          "duracion_ms": 9
+        },
+        {
+          "nombre": "Debe tener un número adecuado de commits",
+          "estado": "passed",
+          "duracion_ms": 9
+        }
+      ]
     }
   ],
   "resumen": {
@@ -123,11 +128,11 @@
     "ejercicios_completos": 0,
     "ejercicios_parciales": 1,
     "ejercicios_fallidos": 0,
-    "total_tests": 6,
-    "tests_aprobados": 5,
+    "total_tests": 7,
+    "tests_aprobados": 6,
     "tests_fallidos": 1,
     "puntos_totales": 100,
-    "puntos_obtenidos": 8,
-    "porcentaje_final": 8
+    "puntos_obtenidos": 12,
+    "porcentaje_final": 12
   }
 }
