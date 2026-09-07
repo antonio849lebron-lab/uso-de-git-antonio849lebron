@@ -1,6 +1,6 @@
 {
   "success": false,
-  "fecha_ejecucion": "2026-09-07T02:15:25.352Z",
+  "fecha_ejecucion": "2026-09-07T02:16:46.298Z",
   "ejercicios": [
     {
       "ejercicio": 1,
@@ -16,12 +16,12 @@
         {
           "nombre": "El repositorio Git debe estar inicializado",
           "estado": "passed",
-          "duracion_ms": 2
+          "duracion_ms": 1
         },
         {
           "nombre": "La configuración de usuario debe estar establecida",
           "estado": "passed",
-          "duracion_ms": 10
+          "duracion_ms": 13
         },
         {
           "nombre": "El comando git status debe funcionar correctamente",
@@ -59,12 +59,12 @@
         {
           "nombre": "Debe tener al menos un commit",
           "estado": "passed",
-          "duracion_ms": 9
+          "duracion_ms": 6
         },
         {
           "nombre": "Los archivos deben estar en el último commit",
           "estado": "passed",
-          "duracion_ms": 8
+          "duracion_ms": 6
         }
       ]
     },
@@ -87,7 +87,7 @@
         {
           "nombre": "El archivo CHANGELOG.md debe existir con el contenido correcto",
           "estado": "passed",
-          "duracion_ms": 0
+          "duracion_ms": 1
         },
         {
           "nombre": "Debe tener al menos 3 commits",
@@ -97,12 +97,12 @@
         {
           "nombre": "Los commits deben tener mensajes descriptivos",
           "estado": "passed",
-          "duracion_ms": 7
+          "duracion_ms": 6
         },
         {
           "nombre": "Los archivos deben estar trackeados en Git",
           "estado": "passed",
-          "duracion_ms": 7
+          "duracion_ms": 5
         }
       ]
     },
@@ -120,50 +120,50 @@
         {
           "nombre": "El archivo features.txt debe existir con el contenido correcto",
           "estado": "passed",
-          "duracion_ms": 2
+          "duracion_ms": 4
         },
         {
           "nombre": "Debe estar en la rama main",
           "estado": "passed",
-          "duracion_ms": 6
+          "duracion_ms": 12
         },
         {
           "nombre": "La rama feature/nueva-funcionalidad no debe existir",
           "estado": "passed",
-          "duracion_ms": 8
+          "duracion_ms": 12
         },
         {
           "nombre": "Debe tener commits adicionales por el trabajo con ramas",
           "estado": "passed",
-          "duracion_ms": 13
+          "duracion_ms": 14
         },
         {
           "nombre": "El archivo features.txt debe estar trackeado en Git",
           "estado": "passed",
-          "duracion_ms": 8
+          "duracion_ms": 12
         },
         {
           "nombre": "Debe haber evidencia de merge en el historial",
           "estado": "passed",
-          "duracion_ms": 12
+          "duracion_ms": 16
         }
       ]
     },
     {
       "ejercicio": 5,
       "nombre": "github-push",
-      "estado": "parcial",
+      "estado": "aprobado",
       "tests_totales": 5,
-      "tests_aprobados": 4,
-      "tests_fallidos": 1,
+      "tests_aprobados": 5,
+      "tests_fallidos": 0,
       "puntos_posibles": 15,
-      "puntos_obtenidos": 12,
-      "porcentaje": 80,
+      "puntos_obtenidos": 15,
+      "porcentaje": 100,
       "detalles": [
         {
           "nombre": "El archivo AUTHORS.md debe existir",
           "estado": "passed",
-          "duracion_ms": 0
+          "duracion_ms": 1
         },
         {
           "nombre": "Debe tener un remote configurado",
@@ -182,21 +182,21 @@
         },
         {
           "nombre": "No debe haber cambios pendientes",
-          "estado": "failed",
-          "duracion_ms": 9
+          "estado": "passed",
+          "duracion_ms": 7
         }
       ]
     },
     {
       "ejercicio": 6,
       "nombre": "pull-clone",
-      "estado": "parcial",
+      "estado": "aprobado",
       "tests_totales": 6,
-      "tests_aprobados": 5,
-      "tests_fallidos": 1,
+      "tests_aprobados": 6,
+      "tests_fallidos": 0,
       "puntos_posibles": 10,
-      "puntos_obtenidos": 8,
-      "porcentaje": 83,
+      "puntos_obtenidos": 10,
+      "porcentaje": 100,
       "detalles": [
         {
           "nombre": "El archivo mi-proyecto.md debe contener la actualización desde GitHub",
@@ -211,84 +211,84 @@
         {
           "nombre": "Debe tener al menos 6 commits",
           "estado": "passed",
-          "duracion_ms": 10
+          "duracion_ms": 6
         },
         {
           "nombre": "El archivo sync-test.txt debe estar trackeado en Git",
           "estado": "passed",
-          "duracion_ms": 8
+          "duracion_ms": 6
         },
         {
           "nombre": "Debe tener commits que indiquen sincronización",
           "estado": "passed",
-          "duracion_ms": 10
+          "duracion_ms": 7
         },
         {
           "nombre": "El repositorio debe estar limpio (sin cambios pendientes)",
-          "estado": "failed",
-          "duracion_ms": 9
+          "estado": "passed",
+          "duracion_ms": 8
         }
       ]
     },
     {
       "ejercicio": 7,
       "nombre": "conflictos",
-      "estado": "parcial",
+      "estado": "aprobado",
       "tests_totales": 7,
-      "tests_aprobados": 6,
-      "tests_fallidos": 1,
+      "tests_aprobados": 7,
+      "tests_fallidos": 0,
       "puntos_posibles": 15,
-      "puntos_obtenidos": 12,
-      "porcentaje": 85,
+      "puntos_obtenidos": 15,
+      "porcentaje": 100,
       "detalles": [
         {
           "nombre": "El archivo mi-proyecto.md debe contener información del proyecto combinada",
           "estado": "passed",
-          "duracion_ms": 2
+          "duracion_ms": 3
         },
         {
           "nombre": "No debe existir la rama feature/conflicto-simulado",
           "estado": "passed",
-          "duracion_ms": 9
+          "duracion_ms": 6
         },
         {
           "nombre": "Debe estar en la rama main/master",
           "estado": "passed",
-          "duracion_ms": 7
+          "duracion_ms": 6
         },
         {
           "nombre": "Debe tener evidencia de merge en el historial",
           "estado": "passed",
-          "duracion_ms": 11
+          "duracion_ms": 7
         },
         {
           "nombre": "Debe tener commits relacionados con conflictos",
           "estado": "passed",
-          "duracion_ms": 12
+          "duracion_ms": 7
         },
         {
           "nombre": "El repositorio debe estar limpio",
-          "estado": "failed",
+          "estado": "passed",
           "duracion_ms": 9
         },
         {
           "nombre": "Debe tener un número adecuado de commits",
           "estado": "passed",
-          "duracion_ms": 9
+          "duracion_ms": 6
         }
       ]
     }
   ],
   "resumen": {
     "total_ejercicios": 7,
-    "ejercicios_completos": 4,
-    "ejercicios_parciales": 3,
+    "ejercicios_completos": 7,
+    "ejercicios_parciales": 0,
     "ejercicios_fallidos": 0,
     "total_tests": 37,
-    "tests_aprobados": 34,
-    "tests_fallidos": 3,
+    "tests_aprobados": 37,
+    "tests_fallidos": 0,
     "puntos_totales": 100,
-    "puntos_obtenidos": 92,
-    "porcentaje_final": 92
+    "puntos_obtenidos": 100,
+    "porcentaje_final": 100
   }
 }
